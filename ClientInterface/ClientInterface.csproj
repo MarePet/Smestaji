@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A10D033-B128-4937-A42C-3CCB928E13F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ClientInterface</RootNamespace>
+    <AssemblyName>ClientInterface</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dialogs\Client dialogs\ClientDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Client dialogs\ClientDetailsForm.Designer.cs">
+      <DependentUpon>ClientDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Client dialogs\DeleteClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Client dialogs\DeleteClientForm.Designer.cs">
+      <DependentUpon>DeleteClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Client dialogs\UpdateClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Client dialogs\UpdateClientForm.Designer.cs">
+      <DependentUpon>UpdateClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\AddServicesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\AddServicesDialog.Designer.cs">
+      <DependentUpon>AddServicesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\DeleteReservationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\DeleteReservationDialog.Designer.cs">
+      <DependentUpon>DeleteReservationDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\ReservationDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\ReservationDetails.Designer.cs">
+      <DependentUpon>ReservationDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\ReservationUpdateAddServiceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\ReservationUpdateAddServiceDialog.Designer.cs">
+      <DependentUpon>ReservationUpdateAddServiceDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\ReservationUpdateDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Reservation dialogs\ReservationUpdateDialog.Designer.cs">
+      <DependentUpon>ReservationUpdateDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exceptions\SystemOperationException.cs" />
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIController\Client\ClientDetailsController.cs" />
+    <Compile Include="GUIController\Login\LoginController.cs" />
+    <Compile Include="GUIController\Client\UCAddNewClientController.cs" />
+    <Compile Include="GUIController\Client\UCClientSearchController.cs" />
+    <Compile Include="GUIController\Client\UCDeleteClientController.cs" />
+    <Compile Include="GUIController\Reservation\ServicesController.cs" />
+    <Compile Include="GUIController\Reservation\UCAddNewReservationController.cs" />
+    <Compile Include="GUIController\Reservation\UCDeleteReservationController.cs" />
+    <Compile Include="GUIController\Reservation\UCReservationSerachController.cs" />
+    <Compile Include="GUIController\Reservation\UCUpdateReservationController.cs" />
+    <Compile Include="Session\Session.cs" />
+    <Compile Include="UserControls\Client\UCDeleteClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client\UCDeleteClient.Designer.cs">
+      <DependentUpon>UCDeleteClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client\UCUpdateClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client\UCUpdateClient.Designer.cs">
+      <DependentUpon>UCUpdateClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIController\Client\UCUpdateClientController.cs" />
+    <Compile Include="UserControls\Client\UCClientSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client\UCClientSearch.Designer.cs">
+      <DependentUpon>UCClientSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerCommunication\Communication.cs" />
+    <Compile Include="UserControls\Client\UCAddNewClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client\UCAddNewClient.Designer.cs">
+      <DependentUpon>UCAddNewClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Reservation\UCAddNewReservation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Reservation\UCAddNewReservation.Designer.cs">
+      <DependentUpon>UCAddNewReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Reservation\UCDeleteReservation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Reservation\UCDeleteReservation.Designer.cs">
+      <DependentUpon>UCDeleteReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Reservation\UCReservationSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Reservation\UCReservationSearch.Designer.cs">
+      <DependentUpon>UCReservationSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Reservation\UCUpdateReservation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Reservation\UCUpdateReservation.Designer.cs">
+      <DependentUpon>UCUpdateReservation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dialogs\Client dialogs\ClientDetailsForm.resx">
+      <DependentUpon>ClientDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Client dialogs\DeleteClientForm.resx">
+      <DependentUpon>DeleteClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Client dialogs\UpdateClientForm.resx">
+      <DependentUpon>UpdateClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Reservation dialogs\AddServicesDialog.resx">
+      <DependentUpon>AddServicesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Reservation dialogs\DeleteReservationDialog.resx">
+      <DependentUpon>DeleteReservationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Reservation dialogs\ReservationDetails.resx">
+      <DependentUpon>ReservationDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Reservation dialogs\ReservationUpdateAddServiceDialog.resx">
+      <DependentUpon>ReservationUpdateAddServiceDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Reservation dialogs\ReservationUpdateDialog.resx">
+      <DependentUpon>ReservationUpdateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client\UCDeleteClient.resx">
+      <DependentUpon>UCDeleteClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client\UCUpdateClient.resx">
+      <DependentUpon>UCUpdateClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client\UCClientSearch.resx">
+      <DependentUpon>UCClientSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControls\Client\UCAddNewClient.resx">
+      <DependentUpon>UCAddNewClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Reservation\UCAddNewReservation.resx">
+      <DependentUpon>UCAddNewReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Reservation\UCDeleteReservation.resx">
+      <DependentUpon>UCDeleteReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Reservation\UCReservationSearch.resx">
+      <DependentUpon>UCReservationSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Reservation\UCUpdateReservation.resx">
+      <DependentUpon>UCUpdateReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{DAEFFAE7-8B54-4D51-84A1-772F1E5AEA28}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{fa14ef67-8d2e-4e2c-a0e8-d91b03b6558c}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

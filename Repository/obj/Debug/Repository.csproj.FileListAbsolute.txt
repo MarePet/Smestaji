@@ -1,0 +1,9 @@
+C:\Users\Marko\source\repos\Smeštaji\Repository\bin\Debug\Repository.dll
+C:\Users\Marko\source\repos\Smeštaji\Repository\bin\Debug\Repository.pdb
+C:\Users\Marko\source\repos\Smeštaji\Repository\bin\Debug\Domain.dll
+C:\Users\Marko\source\repos\Smeštaji\Repository\bin\Debug\Domain.pdb
+C:\Users\Marko\source\repos\Smeštaji\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Smeštaji\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Smeštaji\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\Marko\source\repos\Smeštaji\Repository\obj\Debug\Repository.dll
+C:\Users\Marko\source\repos\Smeštaji\Repository\obj\Debug\Repository.pdb

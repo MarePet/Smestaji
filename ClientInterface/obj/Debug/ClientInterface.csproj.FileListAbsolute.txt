@@ -1,0 +1,66 @@
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\bin\Debug\ClientInterface.exe.config
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\bin\Debug\ClientInterface.exe
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\bin\Debug\ClientInterface.pdb
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\bin\Debug\Common.dll
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\bin\Debug\Domain.dll
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\bin\Debug\Common.pdb
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\bin\Debug\Domain.pdb
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Client_dialogs.ClientDetailsForm.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Client_dialogs.DeleteClientForm.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Client_dialogs.UpdateClientForm.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.AddServicesDialog.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.FormLogin.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.FormMain.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Client.UCDeleteClient.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.GUIController.UCUpdateClient.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.GUIController.UCClientSearch.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Properties.Resources.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Client.UCAddNewClient.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Reservation.UCAddNewReservation.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.GenerateResource.cache
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.CopyComplete
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.exe
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.pdb
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Reservation.UCReservationSearch.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.ReservationDetails.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.ReservationUpdateDialog.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Reservation.UCUpdateReservation.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.ReservationUpdateAddServiceDialog.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.DeleteReservationDialog.resources
+C:\Users\Marko\source\repos\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Reservation.UCDeleteReservation.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\bin\Debug\ClientInterface.exe.config
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\bin\Debug\ClientInterface.exe
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\bin\Debug\ClientInterface.pdb
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\bin\Debug\Common.dll
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\bin\Debug\Domain.dll
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\bin\Debug\Common.pdb
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\bin\Debug\Domain.pdb
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.AssemblyReference.cache
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Client_dialogs.ClientDetailsForm.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Client_dialogs.DeleteClientForm.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Client_dialogs.UpdateClientForm.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.AddServicesDialog.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.DeleteReservationDialog.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.ReservationDetails.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.ReservationUpdateAddServiceDialog.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Dialogs.Reservation_dialogs.ReservationUpdateDialog.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.FormLogin.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.FormMain.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Client.UCDeleteClient.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.GUIController.UCUpdateClient.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.GUIController.UCClientSearch.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.Properties.Resources.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Client.UCAddNewClient.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Reservation.UCAddNewReservation.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Reservation.UCDeleteReservation.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Reservation.UCReservationSearch.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.UserControls.Reservation.UCUpdateReservation.resources
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.GenerateResource.cache
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.CoreCompileInputs.cache
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.csproj.CopyComplete
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.exe
+C:\Users\Marko\Desktop\Za git\Smeštaji\ClientInterface\obj\Debug\ClientInterface.pdb

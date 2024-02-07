@@ -1,0 +1,6 @@
+C:\Users\Marko\source\repos\Smeštaji\Common\bin\Debug\Common.dll
+C:\Users\Marko\source\repos\Smeštaji\Common\bin\Debug\Common.pdb
+C:\Users\Marko\source\repos\Smeštaji\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Smeštaji\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Smeštaji\Common\obj\Debug\Common.dll
+C:\Users\Marko\source\repos\Smeštaji\Common\obj\Debug\Common.pdb

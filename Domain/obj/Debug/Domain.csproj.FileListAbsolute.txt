@@ -1,0 +1,6 @@
+C:\Users\Marko\source\repos\Smeštaji\Domain\bin\Debug\Domain.dll
+C:\Users\Marko\source\repos\Smeštaji\Domain\bin\Debug\Domain.pdb
+C:\Users\Marko\source\repos\Smeštaji\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Smeštaji\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Smeštaji\Domain\obj\Debug\Domain.dll
+C:\Users\Marko\source\repos\Smeštaji\Domain\obj\Debug\Domain.pdb

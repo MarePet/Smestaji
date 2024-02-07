@@ -1,0 +1,11 @@
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\bin\Debug\SystemOperations.dll
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\bin\Debug\SystemOperations.pdb
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\bin\Debug\Domain.dll
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\bin\Debug\Repository.dll
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\bin\Debug\Domain.pdb
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\bin\Debug\Repository.pdb
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\obj\Debug\SystemOperations.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\obj\Debug\SystemOperations.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\obj\Debug\SystemOperations.csproj.CopyComplete
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\obj\Debug\SystemOperations.dll
+C:\Users\Marko\source\repos\Smeštaji\SystemOperations\obj\Debug\SystemOperations.pdb
